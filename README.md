@@ -11,4 +11,5 @@ https://joelrader.net/cgi-bin/passgen/index.pl?length=45
 You may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
+And permissions too..
 $ chmod 755 test.pl
