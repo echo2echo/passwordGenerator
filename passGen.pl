@@ -8,11 +8,13 @@ use CGI;
 
 use Crypt::RandPasswd;
 
+
+# Uncomment $ARGV line below and comment the two $cgi lines below that to run \
+# as a local script instead of cgi script
+
 #my $in = $ARGV[0];
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
-
-#my $in = param('length');
 
 my $word;
 my $minlen = $in;
