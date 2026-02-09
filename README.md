@@ -1,6 +1,6 @@
 # passwordGenerator
 
-Perl Script to generate password.
+Perl CGI Script to generate password.
 
 Try the following URL.
 
@@ -10,7 +10,6 @@ https://joelrader.net/cgi-bin/passgen/index.pl?length=45
 
 Or...
 $ curl https://joelrader.net/cgi-bin/passgen/index.pl?length=40
-
 
 
 You may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
