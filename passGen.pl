@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use diagnostics;
 
+# Uncomment line below if using as local $ARGV script
 use CGI;
 
 use Crypt::RandPasswd;
