@@ -8,6 +8,7 @@ Change the length on URL below to how long you would like your password to be,
 
 https://joelrader.net/cgi-bin/passgen/index.pl?length=45
 
+You may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
+( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
-You may need to install Crypt::RandPasswd with cpan ( cpan Crypt::RandPasswd ) or 
-( cpanm  Crypt::RandPasswd ) and CGI perl module too.
+$ chmod 755 test.pl
