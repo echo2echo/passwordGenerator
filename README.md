@@ -6,11 +6,11 @@ Try the following URL.
 
 Change the length parameter in the URL below for how long you would like your password to be.
 
-https://joelrader.net/cgi-bin/passgen/?length=45
+https://joelrader.net/cgi-bin/passgen/?length=40
 
 Or...
 
-$ curl https://joelrader.net/cgi-bin/passgen/?length=45
+$ curl https://joelrader.net/cgi-bin/passgen/?length=40
 
 
 You may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
