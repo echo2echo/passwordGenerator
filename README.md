@@ -8,7 +8,7 @@ Change the length parameter in the URL below for how long you would like your pa
 
 https://joelrader.net/cgi-bin/passgen/?length=40
 
-Or...
+Or cURL...
 
 $ curl https://joelrader.net/cgi-bin/passgen/?length=40
 
