@@ -16,14 +16,10 @@ use Crypt::RandPasswd;
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
-my $word;
-my $minlen = $in;
-my $maxlen = $in;
-my $hyphenated;
-
-( $word, $hyphenated ) = Crypt::RandPasswd->word( $minlen, $maxlen );
-$word = Crypt::RandPasswd->chars( $minlen, $maxlen );
+# Remove < and & from password
 $word =~ s/<//;
+$word =~ s/&//;
+
 
 # Also remove following line if runnug as local script
 print "Content-type: text/html\n\n";
