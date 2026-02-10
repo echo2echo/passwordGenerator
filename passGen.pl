@@ -24,10 +24,8 @@ my $hyphenated;
 
 ( $word, $hyphenated ) = Crypt::RandPasswd->word( $minlen, $maxlen );
 $word = Crypt::RandPasswd->chars( $minlen, $maxlen );
+$word =~ s/<//;
 
 # Also remove following line if runnug as local script
 print "Content-type: text/html\n\n";
-
-#print "Content-type: text/html\n\n\n":
-
 print "$word";
