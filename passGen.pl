@@ -9,7 +9,6 @@ use CGI;
 
 use Crypt::RandPasswd;
 
-
 # Uncomment $ARGV line below and comment the two $cgi lines below that to run \
 # as a local script instead of cgi script
 
