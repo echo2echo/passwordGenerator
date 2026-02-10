@@ -12,6 +12,12 @@ use Crypt::RandPasswd;
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
+if ( $in > 350 ) {
+	print "Content-type: text/html\n\n";
+	print "Too large a number for this machine ";
+	die();
+}
+
 my $word;
 my $minlen = $in;
 my $maxlen = $in;
