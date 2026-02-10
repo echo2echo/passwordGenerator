@@ -20,3 +20,5 @@ And permissions too..
 $ chmod 755 test.pl
 
 & and < characters are removed from rendered password
+
+On my machine, the script will hang if the length parameter is somewhere over 250.
