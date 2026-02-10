@@ -16,7 +16,7 @@ use Crypt::RandPasswd;
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
-# Remove < and & from password
+# Remove < and & from generated password
 $word =~ s/<//g;
 $word =~ s/&//g;
 
