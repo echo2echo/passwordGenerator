@@ -17,8 +17,8 @@ my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
 # Remove < and & from password
-$word =~ s/<//;
-$word =~ s/&//;
+$word =~ s/<//g;
+$word =~ s/&//g;
 
 
 # Also remove following line if runnug as local script
