@@ -12,7 +12,7 @@ Or cURL...
 
 $ curl https://joelrader.net/cgi-bin/passgen/?length=30
 
-You may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
+If running on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
 And permissions too..
