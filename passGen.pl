@@ -23,4 +23,4 @@ $word =~ s/&//g;
 
 # Also remove following line if runnug as local script
 print "Content-type: text/html\n\n";
-print "$word";
+print "$word\n";
