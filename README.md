@@ -4,7 +4,7 @@ Perl CGI Script to generate password.
 
 Try the following URL.
 
-Change the length in the URL below for how long you would like your password to be.
+Change the length parameter in the URL below for how long you would like your password to be.
 
 https://joelrader.net/cgi-bin/passgen/?length=45
 
