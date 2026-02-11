@@ -5,7 +5,6 @@ use warnings;
 use diagnostics;
 
 use CGI;
-
 use Crypt::RandPasswd;
 
 my $cgi = CGI->new;
