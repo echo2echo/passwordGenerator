@@ -1,6 +1,6 @@
 # passwordGenerator
 
-This is a Perl CGI Script to generate password..
+This is a Perl CGI Script to generate a strong password...
 
 Change the length parameter in the URL below for how long you would like your password to be.
 
