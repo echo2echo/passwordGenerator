@@ -6,7 +6,7 @@ Try the following URL.
 
 Change the length parameter in the URL below for how long you would like your password to be.
 
-Systems should usually accept passwords up to 64 characters.
+Systems should accept passwords up to 64 characters.
 
 
 https://joelrader.net/cgi-bin/passgen/?length=64
