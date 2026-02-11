@@ -4,13 +4,13 @@ This is a Perl CGI Script to generate a strong password...
 
 Change the length parameter in the URL below for how long you would like your password to be.
 
+Passwords 16 or more are recommended for added security
+
 Most Systems should accept passwords up to 64 characters.
 
 FYI, A Gmail password can be up to 100 characters long.
 
 An Outlook/Microsoft account password can be 256 charaters long.
-
-
 
 Retrieve password with a web browser...
 
