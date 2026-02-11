@@ -19,7 +19,7 @@ And permissions too..
 
 $ chmod 755 test.pl
 
-& and < characters are removed from rendered password
+& and < characters are removed from rendered passwords.
 
 On my machine, the script will hang if the length parameter is somewhere over 300.  If you try a length over 200 you'll get a friendly error message.
 Your mileage may vary depending on the hardware you have serving this script.
