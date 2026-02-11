@@ -17,7 +17,7 @@ If running this code on your own machine you may need to install Crypt::RandPass
 
 And permissions ...
 
-$ chmod 755 test.pl
+$ chmod 755 index.pl
 
 & and < characters are removed from rendered passwords.
 
