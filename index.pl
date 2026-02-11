@@ -12,7 +12,7 @@ my $in = $cgi->param("length");
 
 if ( $in > 128 ) {
 	print "Content-type: text/html\n\n";
-	print "$in is too large a number for this machine. Try 128 or under.";
+	print "$in is too large a number for this server. Try 128 or under.";
 	die();
 }
 
