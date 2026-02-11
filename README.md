@@ -14,7 +14,7 @@ $ curl https://joelrader.net/cgi-bin/passgen/?length=64
 
 Or wget...
 
-$ wget -qO - https://joelrader.net/cgi-bin/passgen/?length=32
+$ wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
 
 If running this code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
