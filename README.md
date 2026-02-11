@@ -10,6 +10,7 @@ FYI, A gmail pasword can be up to 100 characters long
 An Outlook/Microsoft account password can be 256 charaters long.
 
 
+
 Retrieve with a web browser...
 
 https://joelrader.net/cgi-bin/passgen/?length=64
@@ -21,6 +22,7 @@ $ curl https://joelrader.net/cgi-bin/passgen/?length=64
 Or wget...
 
 $ wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
+
 
 
 If running this code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
