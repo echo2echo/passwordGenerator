@@ -6,6 +6,8 @@ Change the length parameter in the URL below for how long you would like your pa
 
 Most Systems should accept passwords up to 64 characters.
 
+Via a we browser...
+
 https://joelrader.net/cgi-bin/passgen/?length=64
 
 Or cURL...
