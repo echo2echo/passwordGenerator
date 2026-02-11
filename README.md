@@ -6,6 +6,9 @@ Change the length parameter in the URL below for how long you would like your pa
 
 Most Systems should accept passwords up to 64 characters.
 
+FYI, A gmail pasword can be up to 100 characters long
+An Outlook/Microsoft account password can be 256 charaters long.
+
 Retrieve with a web browser...
 
 https://joelrader.net/cgi-bin/passgen/?length=64
