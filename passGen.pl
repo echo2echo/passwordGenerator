@@ -12,7 +12,7 @@ use Crypt::RandPasswd;
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
-if ( $in > 100 ) {
+if ( $in > 128 ) {
 	print "Content-type: text/html\n\n";
 	print "$in is too large a number for this machine. Try 100 or under.";
 	die();
