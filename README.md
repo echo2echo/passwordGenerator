@@ -26,7 +26,7 @@ $ wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
 
 
 
-If running this code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
+If running the code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
 On my server the script will hang if the length parameter is somewhere over 300.  If you try a length over 128 you'll get a friendly error message asking you to try again.
