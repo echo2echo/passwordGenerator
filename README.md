@@ -4,7 +4,7 @@ This is a Perl CGI Script to generate a strong password...
 
 Change the length parameter in the URL below for how long you would like your password to be.
 
-Passwords 16 or more are recommended for added security
+Passwords of 16 or more characters are recommended for added security
 
 Most Systems should accept passwords up to 64 characters.
 
