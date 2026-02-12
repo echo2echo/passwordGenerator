@@ -29,7 +29,6 @@ Or wget...
 wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
 ```
 
-If running the code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
-( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
+If running the code on your own machine you may need to install Crypt::RandPasswd with and the CGI module with cpan / cpanm..
 
 If you try generating a password with a length over 2048 you'll get a friendly error message asking you to try again with a smaller number.
