@@ -18,13 +18,13 @@ Change the length parameter in the URLs below for how long you would like your p
 https://joelrader.net/cgi-bin/passgen/?length=64
 ```
 
-Or cURL...
+<b> Or cURL...</b>
 
 ```
 curl https://joelrader.net/cgi-bin/passgen/?length=64
 ```
 
-Or wget...
+<b>Or wget...</b>
 ```
 wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
 ```
