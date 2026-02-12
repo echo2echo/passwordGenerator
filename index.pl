@@ -5,7 +5,6 @@ use warnings;
 use diagnostics;
 
 use CGI;
-
 use Crypt::RandPasswd;
 
 my $cgi = CGI->new;
@@ -18,7 +17,6 @@ if ( $in > 2048 ) {
 }
 
 my $password;
-
 $password = Crypt::RandPasswd->chars( $in, $in );
 $password =~ s/<//g;
 $password =~ s/&//g;
