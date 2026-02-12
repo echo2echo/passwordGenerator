@@ -21,7 +21,6 @@ my $minlen = $in;
 my $maxlen = $in;
 my $hyphenated;
 
-( $word, $hyphenated ) = Crypt::RandPasswd->word( $minlen, $maxlen );
 $word = Crypt::RandPasswd->chars( $minlen, $maxlen );
 $word =~ s/<//g;
 $word =~ s/&//g;
