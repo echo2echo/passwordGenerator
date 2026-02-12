@@ -21,7 +21,7 @@ https://joelrader.net/cgi-bin/passgen/?length=64
 ### Or cURL...
 
 ```
-curl https://joelrader.net/cgi-bin/passgen/?length=64
+curl -s https://joelrader.net/cgi-bin/passgen/?length=64
 ```
 
 ### Or wget...
