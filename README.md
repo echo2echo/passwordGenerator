@@ -4,7 +4,7 @@ This is a Perl CGI Script to generate a strong password...
 
 Passwords of 16 or more characters are recommended for added security
 
-Most Systems should accept passwords up to 64 characters.
+Most systems should accept passwords up to 64 characters.
 
 FYI, A Gmail password can be up to 100 characters long.
 
