@@ -12,7 +12,7 @@ FYI, A Gmail password can be up to 100 characters long.
 
 An Outlook/Microsoft account password can be 256 charaters long.
 
-Retrieve password with a web browser...
+Retrieve a password with a web browser...
 
 https://joelrader.net/cgi-bin/passgen/?length=64
 
@@ -24,10 +24,9 @@ Or wget...
 
 $ wget -qO - https://joelrader.net/cgi-bin/passgen/?length=64
 
-
-
 If running the code on your own machine you may need to install Crypt::RandPasswd with cpan ( cpan -i Crypt::RandPasswd ) or 
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
-If you try a length over 1024 you'll get a friendly error message asking you to try again with a smaller length.
+If you try generating a password with a length over 1024 you'll get a friendly error message asking you to try again with a smaller length.
 Your performance may vary depending on the hardware you have serving this script.
+ 
