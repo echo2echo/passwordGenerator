@@ -14,9 +14,7 @@ Change the length parameter in the URLs below for how long you would like your p
 
 ### Retrieve a password with a web browser...
 
-```
 https://joelrader.net/cgi-bin/passgen/?length=64
-```
 
 ### Or cURL...
 
