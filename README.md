@@ -12,7 +12,7 @@ An Outlook/Microsoft account password can be 256 characters long.
 
 Change the length parameter in the URLs below for how long you would like your password to be.
 
-Retrieve a password with a web browser... 
+<b>Retrieve a password with a web browser...</b> 
 
 ```
 https://joelrader.net/cgi-bin/passgen/?length=64
