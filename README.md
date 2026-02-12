@@ -28,5 +28,3 @@ If running the code on your own machine you may need to install Crypt::RandPassw
 ( cpanm  Crypt::RandPasswd ) and the CGI perl module too.
 
 If you try generating a password with a length over 2048 you'll get a friendly error message asking you to try again with a smaller number.
-Your performance may vary depending on the hardware you have serving this script.
- 
