@@ -20,6 +20,7 @@ my $password;
 $password = Crypt::RandPasswd->chars( $in, $in );
 $password =~ s/<//g;
 $password =~ s/&//g;
+$password =~ s/\?//g;
 
 print "Content-type: text/html\n\n";
 
