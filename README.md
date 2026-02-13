@@ -34,7 +34,7 @@ wget --quiet -O - https://joelrader.net/cgi-bin/passgen/?length=64
 curl --silent https://joelrader.net/cgi-bin/passgen/?length=64 > pass_file.txt
 ```
 
-If running the code on your own machine you may need to install Crypt::RandPasswd and the CGI modules with cpan / cpanm...
+If running the code on your own machine, you may need to install Crypt::RandPasswd and the CGI modules with cpan / cpanm...
 
 A generated password may be shorter than the number submitted in the length parameter.  Some special characters ( &, <, ? ) are removed when generating the password.
 
