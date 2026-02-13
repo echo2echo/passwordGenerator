@@ -13,7 +13,7 @@ my $in = $cgi->param("length");
 if ( $in > 4096 ) {
 	print "Content-type: text/html\n\n";
 	print "$in is too large a number for this server. Try 4096 or under.\n";
-	die();
+	die("Died, input too large");
 }
 
 my $password;
