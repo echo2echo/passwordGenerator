@@ -22,15 +22,11 @@ https://joelrader.net/cgi-bin/passgen/?length=64
 
 ```
 curl --silent https://joelrader.net/cgi-bin/passgen/?length=64
-Or Redirect...
-curl --silent https://joelrader.net/cgi-bin/passgen/?length=64 > temp.txt
 ```
 
 ### Or wget...
 ```
 wget --quiet -O - https://joelrader.net/cgi-bin/passgen/?length=64
-Or Redirect
-wget --quiet -O - https://joelrader.net/cgi-bin/passgen/?length=64 > temp.txt
 ```
 
 If running the code on your own machine you may need to install Crypt::RandPasswd and the CGI module with cpan / cpanm...
