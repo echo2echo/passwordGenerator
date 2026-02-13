@@ -31,4 +31,6 @@ wget --quiet -O - https://joelrader.net/cgi-bin/passgen/?length=64
 
 If running the code on your own machine you may need to install Crypt::RandPasswd and the CGI modules with cpan / cpanm...
 
+A generated password may be shorter than the number submitted in the length parameter.  Some special characters ( &, <, $ ) are omitted when generating the password.
+
 If you try generating a password with a length over 16384 you'll get a friendly error message asking you to try again with a smaller number.
