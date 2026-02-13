@@ -10,9 +10,9 @@ use Crypt::RandPasswd;
 my $cgi = CGI->new;
 my $in = $cgi->param("length");
 
-if ( $in > 2048 ) {
+if ( $in > 4096 ) {
 	print "Content-type: text/html\n\n";
-	print "$in is too large a number for this server. Try 2048 or under.\n";
+	print "$in is too large a number for this server. Try 4096 or under.\n";
 	die();
 }
 
