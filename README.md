@@ -1,6 +1,6 @@
 # passwordGenerator
 
-This is a Perl CGI Script to generate a strong password...
+This is a Perl CGI Script to generate a randomized password...
 
 Passwords of 16 or more characters are recommended for security. This script supports up to 2048 characters.
 
