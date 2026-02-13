@@ -2,7 +2,7 @@
 
 This is a Perl CGI Script to generate a randomized password...
 
-Passwords of 16 or more characters are recommended for security. This script supports up to 16,384 characters.
+Passwords of 16 or more characters are recommended for security. This script supports up to 16,384 characters. :-)
 
 Most systems should accept passwords up to 64 characters.
 
