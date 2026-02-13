@@ -29,7 +29,7 @@ curl --silent https://joelrader.net/cgi-bin/passgen/?length=64
 wget --quiet -O - https://joelrader.net/cgi-bin/passgen/?length=64
 
 ```
-### Or redirect to a file...
+### Redirect to a file example...
 ```
 curl --silent https://joelrader.net/cgi-bin/passgen/?length=64 > pass_file.txt
 ```
