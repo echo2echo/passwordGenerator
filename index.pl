@@ -15,7 +15,7 @@ $in =~ s/,//g;
 
 if ( $in > 16384 ) {
 	print "Content-type: text/html\n\n";
-	print "$in is too large a number for this server. Try 16384 or under.\n";
+	print "$in is over max. Try 16384 or under.\n";
 	exit(0);
 }
 
