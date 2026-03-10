@@ -12,6 +12,7 @@ An Outlook/Microsoft account password can be 256 characters long.
 
 Change the length parameter in the URLs below for how long you would like your rendered password to be.
 
+
 ### Retrieve a password with a web browser...
 
 ```
@@ -39,3 +40,7 @@ If running the code on your own machine, you may need to install Crypt::RandPass
 A generated password may be shorter than the number submitted in the length parameter.  Some special characters ( &, <, ? ) are removed when generating the password.
 
 If you try generating a password with a length over 16384 you'll get a friendly error message asking you to try again with a smaller number.
+
+Thanks to John Porter for writing the Perl module... 
+Crypt::RandPasswd - random password generator based on FIPS-181
+By John Porter (JDPORTER@cpan.org)
