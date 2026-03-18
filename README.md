@@ -43,4 +43,4 @@ If you try generating a password with a length over 16384 you'll get a friendly 
 
 Thanks to John Porter for writing the Perl module... 
 Crypt::RandPasswd - random password generator based on FIPS-181
-By John Porter (JDPORTER@cpan.org)
+John Porter (JDPORTER@cpan.org)
