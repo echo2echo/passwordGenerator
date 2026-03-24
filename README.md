@@ -8,8 +8,6 @@ Most systems should accept passwords up to 64 characters.
 
 FYI, A Gmail password can be up to 100 characters long.
 
-An Outlook/Microsoft account password can be 256 characters long.
-
 Change the length parameter in the URLs below for how long you would like your rendered password to be.
 
 
