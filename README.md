@@ -40,5 +40,4 @@ A generated password may be shorter than the number submitted in the length para
 If you try generating a password with a length over 16384 you'll get a friendly error message asking you to try again with a smaller number.
 
 Thanks to John Porter for writing the Perl module... 
-Crypt::RandPasswd - random password generator
-John Porter (JDPORTER@cpan.org)
+Crypt::RandPasswd - random password generator (JDPORTER@cpan.org)
